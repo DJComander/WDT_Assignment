@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li class="liSign"><a href="signInForm.html">Sign-in</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="main">
+            <h2>Sign in</h2>
+            <form action="#popup1">
+                <table class="signUpTable">
+                    <tr>
+                        <td> <input type="radio" name="sichoice" value="Mentor"> <label name="siMentor"> Mentor </label> </td>
+                        <td> <input type="radio" name="sichoice" value="Mentee"> <label name="siMentee"> Mentee </label> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label name="username">Username</label> </td>
+                        <td> <input type="text" name="username"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label name="password">Password</label> </td>
+                        <td> <input type="password" name="password"> </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="td_submit" colspan="2"> <input class="submitInput" type="submit"> </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ipsum tincidunt nunc feugiat rhoncus. Suspendisse ullamcorper urna convallis, scelerisque elit in, faucibus mi. Donec elementum at felis eu accumsan. Curabitur vel quam sem. Maecenas nulla justo, faucibus iaculis imperdiet eu, sodales in sapien. Nulla facilisi. Aenean eget libero fringilla, mollis justo eu, facilisis nibh. Praesent quis porttitor nisl, quis elementum nibh. Aenean aliquam, mi vitae fermentum pulvinar, enim sem tincidunt tortor, quis pretium augue orci id mi. Quisque pulvinar nisl quam, tincidunt placerat augue euismod vel. Integer facilisis, leo ut commodo feugiat, nibh purus suscipit quam, ut lacinia risus lectus a ex. Nullam dictum maximus velit, fermentum semper lorem elementum sed. Duis egestas sollicitudin ipsum nec iaculis. Donec facilisis tortor vitae sapien malesuada, eget iaculis risus cursus.
+            </p>
+
+            <p>
+                Vestibulum eget finibus tellus. Nunc turpis risus, maximus nec iaculis non, malesuada non leo. Nam lacinia hendrerit lectus, sed fermentum leo vestibulum vel. Duis mollis, enim vel tincidunt rutrum, dui sapien tempor arcu, non mollis ante sapien in arcu. Phasellus egestas, felis at suscipit mattis, mauris dolor suscipit massa, consequat pharetra nulla tortor eget tellus. Aenean in tempus justo, ac finibus sem. Sed tincidunt ante non nisi facilisis pretium. Pellentesque condimentum in dolor id euismod. Pellentesque non ante lacinia diam tristique lobortis. Sed et libero lacus. Mauris pharetra bibendum augue eget sollicitudin. Nam vel eros erat. Praesent vehicula suscipit neque. Aenean et quam laoreet, pulvinar neque quis, lobortis sem. Nullam non ultricies nulla. Sed vitae odio eget mauris maximus egestas.
+            </p>
+
+            <h3> No Account? Sign-up now! </h3>
+            <p>
+                <a href="signUpFormMentor.html">Sign Up as a MENTOR</a>
+                <br>
+                <a href="signUpFormMentee.html">Sign Up as a MENTEE</a>
+            </p>
+
+            <p>Return to <a href="index.html"> home </a> </p>
+            
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>
+                        Successfully signed in
+                    </h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Go to <a href="mentorProfile.html">mentor profile</a>. <br>
+                        Go to <a href="menteeProfile.html">mentee profile</a>. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

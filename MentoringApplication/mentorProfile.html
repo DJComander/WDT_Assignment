@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mentoring Application</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li class="liSign"><a href="index.html">Sign-out</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="main">
+            <div class="mainChildProfile">
+                <h1 class="h1title">My MENTOR profile</h1>
+
+                <div class="parent profile">
+                    <div class="child profile_picture">
+                        <img class="profileImg" src="images/defProfileOrg.jpg" title="My profile picture" alt="My profile picture">
+                    </div>
+                    <div class="child profile_data">
+                        <table class="tbl_generalUse" title="Profile data">
+                            <tr>
+                                <th>Name</th>
+                                <td>John Doe</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>john.doe@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th>Job Category</th>
+                                <td>mentor</td>
+                            </tr>
+                            <tr>
+                                <th>Company</th>
+                                <td>The Company</td>
+                            </tr>
+                            <tr>
+                                <th>Skills</th>
+                                <td>
+                                    Leadership <br>
+                                    Problem solving <br>
+                                    Hard worker <br>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>Location</th>
+                                <td>Earth</td>
+                            </tr>
+                            <tr>
+                                <th>Review scores</th>
+                                <td>
+                                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span> (4.2)
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mainChildTables">
+                <h3>About me</h3>
+                (add a short <a href="descriptionForm.html">description</a> here)
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper blandit commodo. Aenean luctus commodo nulla vel rhoncus. Morbi eget arcu quis mauris maximus scelerisque. Donec quam mauris, hendrerit eu quam sed, tincidunt imperdiet ligula. Fusce mollis pellentesque sapien sit amet molestie. Cras gravida massa eu ornare condimentum. Pellentesque mollis ligula porta sem rutrum luctus vitae nec turpis. Aenean commodo turpis id felis suscipit, nec efficitur risus accumsan. Praesent varius mollis neque, vel ultricies risus pulvinar a. </p>
+                
+                <h3>Received meeting requests</h3>
+                <table class="tbl_timeSlots">
+                    <tr>
+                        <th>User</th>
+                        <th>Purpose of the meeting</th>
+                        <th>Proposed time-slot</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>Ionel</td>
+                        <td>Making a study plan</td>
+                        <td>Monday 10:00-12:00</td>
+                        <td>
+                            <select class="entryAppointment wait" name="approvals" id="approvals">
+                                <option value="Approve">Approve</option>
+                                <option value="Reject">Reject</option>
+                            </select>
+                            <input class="submitBook" type="submit" value="Send Decision">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Person</td>
+                        <td>Planning a year abroad</td>
+                        <td>Thursday 09:00-11:00</td>
+                        <td>
+                            <select class="entryAppointment wait" name="approvals" id="approvals">
+                                <option value="Approve">Approve</option>
+                                <option value="Reject">Reject</option>
+                            </select>
+                            <input class="submitBook" type="submit" value="Send Decision">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>NoName</td>
+                        <td>Something</td>
+                        <td>Thursday 09:00-11:00</td>
+                        <td class="entryAppointment reject">
+                            Rejected
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>VIP</td>
+                        <td>Important stuff</td>
+                        <td>Friday 14:00-15:00</td>
+                        <td class="entryAppointment approved">
+                            Approved
+                        </td>
+                    </tr>
+
+                </table>
+
+                <h3> My available timeslots</h3>
+
+                <table class="tbl_timeSlots">
+                    <tr>
+                        <td>Monday</td>
+                        <td>10:00 - 12:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>09:00 - 11:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+
+                </table>
+
+                <p>You can add, update and delete timeslots <a href="timeSlots.html"> here</a>. </p>
+
+                <p>Return to <a href="index.html"> home </a> </p>
+            </div>
+        </div>
+    </body>
+</html>

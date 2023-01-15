@@ -1,0 +1,405 @@
+body {
+    /* background-color: #ebcaff; */
+    background-color: #EDFCED;
+    text-align: justify;
+    font-family:monospace;
+    font-size: medium;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.main {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    /* border: #0D451E solid; */
+    margin: auto;
+}
+
+.mainChildProfile {
+    align-self: center;
+}
+
+.mainChildTables {
+    align-self: center;
+}
+
+.h1title {
+    text-align: center;
+    color: #0D451E;
+}
+
+h2 {
+    color: #0D451E;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C913E;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar .liSign {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #0D451E (some green) on hover */
+.navbar li a:hover {
+    background-color: #0D451E;
+}
+
+.signUpTable {
+    padding: 5px;
+}
+
+.signUpTable tr {
+    padding: 5px;
+}
+
+.signUpTable td {
+    padding: 5px;
+}
+
+.tableContainer {
+    /* overflow: hidden; */
+    overflow-x: scroll;
+}
+
+.tbl_usual {
+    position: sticky;
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+    overflow-x:scroll;
+}
+
+.tbl_usual tr {
+    padding: 8px;
+}
+
+.tbl_usual td {
+    padding: 8px;
+}
+
+.tbl_usual th {
+    padding: 8px;
+}
+
+
+.signUpTable .td_submit {
+    text-align: right;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.profileImg {
+    max-width: 250px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.tbl_timeSlots {
+    border: 2px double #1C913E;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tbl_timeSlots tr {
+    border: 2px double #1C913E;
+    padding: 5px;
+}
+
+.tbl_timeSlots td {
+    border: 2px double #1C913E;
+    padding: 5px;
+}
+
+.tbl_timeSlots th {
+    border: 2px double #1C913E;
+    padding: 5px;
+}
+
+.inputSignUpIn {
+    width: 100%;
+}
+
+.textareaSignUpIn {
+    width: 100%;
+}
+
+.selectSignUpIn {
+    width: 100%;
+}
+
+.searchTable {
+    border-collapse: collapse;
+    border: grey double 1px;
+    margin-left: 30px;
+}
+
+.searchTable tr {
+    padding-left: 15px;
+}
+
+.searchTable td {
+    padding: 0;
+    background-color: white;
+    border: grey double 1px;
+}
+
+.searchTable th {
+    padding: 0;
+}
+
+.textSearch {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    /*background: transparent url("../images/searchIcon2.png") no-repeat right;*/
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.textSearch:hover {
+    opacity: 1;
+}
+
+.selectSearch {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    opacity: 0.7;
+}
+
+.selectSearch:hover {
+    opacity: 1;
+}
+
+.submitSearch {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+.bookTable {
+    margin: 0;
+}
+
+.bookTable tr {
+    padding-left: 0;
+    margin: 0;
+}
+
+.bookTable td {
+    padding: 0;
+    margin: 0;
+}
+
+.bookTable th {
+    padding: 0;
+    margin: 0;
+}
+
+.submitBook {
+    background-color: #EDFCED;
+    border: 0;
+    opacity: 0.7;
+}
+
+.submitBook:hover{
+    opacity: 1;
+}
+
+.tbl_generalUse {
+    /* border: 2px solid grey; */
+    border-collapse: collapse;
+    padding: 5px;
+    width: 100%;
+}
+
+.tbl_generalUse tr {
+    /* border: 2px solid grey; */
+    padding: 5px;
+}
+
+.tbl_generalUse td {
+    /* border: 2px solid grey; */
+    padding: 5px;
+    /* text-align: justify; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.tbl_generalUse th {
+    /* border: 2px solid grey; */
+    padding: 5px;
+    text-align: right;
+}
+
+.parent {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-content: center;
+    /* height: 250px; */
+}
+
+.profile_data {
+    align-self: center;
+    /* border: #1C913E solid; */
+}
+
+.profile_picture {
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.child {
+    text-align: center;
+    /* background: #1abc9c; */
+    padding: 10px;
+    height: 100%;
+}
+
+.textboxChild {
+    text-align: right;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.submitInput {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    padding-right: 40px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    word-wrap: normal;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-right: 60px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    padding-right: 5px;
+    /* border: #0D451E solid; */
+}
+
+.popup .close:hover {
+    color: maroon;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    word-wrap: normal;
+}
+  
+@media screen and (max-width: 550px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}
+
+button {
+    cursor: pointer;
+    background-color: #EDFCED;
+    border: 0;
+    object-fit: cover;
+}
+
+button:hover{
+    background-color: #1C913E;
+    color: white;
+}
+
+.entryAppointment {
+    border: 0;
+}
+
+.wait{
+    background-color: #EDFCED
+}
+
+.reject {
+    background-color:rgb(204, 81, 81);
+    /* color:cornsilk; */
+    color: #EDFCED;
+    text-align: center;
+}
+
+.approved {
+    background-color:#1C913E;
+    /* color:cornsilk; */
+    color: #EDFCED;
+    text-align: center;
+}

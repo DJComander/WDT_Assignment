@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our mentors</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li class="liSign"><a href="index.html">Sign-out</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="main">
+
+        <h2>Meet our mentors</h2>
+
+        <table class="searchTable">
+            <tr>
+                <td>
+                    <input class="textSearch" type="text" id="myInput" onkeyup="someSearchFunction()" placeholder="Search for mentor...">
+                </td>
+
+                <td>
+                    <select class="selectSearch" name="selectBy" id="selects">
+                        <option value="name">Name</option>
+                        <option value="skill">Skill</option>
+                        <option value="jobCategory">Job Category</option>
+                        <option value="company">Company</option>
+                        <option value="reviewScores">Review Scores</option>
+                        <option value="location">Location</option>
+                    </select>
+                </td>
+
+                <td style="background-color: #F0F0F0">
+                    <input class="submitSearch" type="submit" value="Search" >
+                </td>
+            </tr>
+        </table>
+
+        <div class="tableContainer">
+            <table class="tbl_usual">
+                <tr>
+                    <th>Picture</th>
+                    <th>Mentor</th>
+                    <th>Available time-slots</th>
+                    <th>Contact me</th>
+                    <th>Book a meeting</th>
+                    <th>Skills</th>
+                    <th>Job Category</th>
+                    <th>Company</th>
+                    <th>Review Scores</th>
+                    <th>Location</th>
+
+                </tr>
+
+                <tr>
+                    <td> <img src="images/defProfileOrg.jpg" title="My profile picture" alt="My profile picture" width="35"> </td>
+                    <td>John Doe</td>
+                    <td>Monday 10AM <br> Friday 11AM</td>
+                    <td> <a href="contactForm.html"> here</a> </td>
+                    <td>
+                        <table class="bookTable">
+                            <tr>
+                                <td>
+                                    <select style="border: 0; background-color: #EDFCED" name="meetTime" id="selectsTimeJohn">
+                                        <option value="m1">Monday 10AM</option>
+                                        <option value="m2">Friday 11AM	</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #EDFCED; color: #0D451E">
+                                    <input class="submitBook" type="submit" value="Book" >
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        Leadership <br>
+                        Problem solving <br>
+                        Hard worker <br>
+                    </td>
+                    <td>Mentor</td>
+                    <td>Siemens</td>
+                    <td>4.2</td>
+                    <td>Earth</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="images/defProfileOrg.jpg" title="My profile picture" alt="My profile picture" width="35"> </td>
+                    <td>Max Mustermann</td>
+                    <td>Tuesday 09AM</td>
+                    <td> <a href="contactForm.html"> here</a> </td>
+                    <td>
+                        <table class="bookTable">
+                            <tr>
+                                <td>
+                                    <select style="border: 0; background-color: #EDFCED" name="meetTime" id="selectsTimeMax">
+                                        <option value="m1">Tuesday 09AM</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #EDFCED; color: #0D451E">
+                                    <input class="submitBook" type="submit" value="Book" >
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        Public speaking
+                    </td>
+                    <td>Manager</td>
+                    <td>NetCompany</td>
+                    <td>3.9</td>
+                    <td>Mars</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt lectus eu nulla vestibulum ullamcorper. Suspendisse in eros condimentum, consequat massa ac, vehicula urna. Donec tempus, justo vel malesuada ullamcorper, odio mi egestas lorem, vitae faucibus odio velit vitae ante. Pellentesque habitant morbi tristique senectus.
+        </p>
+
+        <p>Return to <a href="menteeProfile.html"> my profile </a> </p>
+    </div>
+
+    </body>
+</html>
