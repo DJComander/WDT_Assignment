@@ -23,7 +23,7 @@
         <table class="searchTable">
             <tr>
                 <td>
-                    <input class="textSearch" type="text" id="myInput" onkeyup="someSearchFunction()" placeholder="Search for mentor...">
+                    <input class="textSearch" type="text" id="myInput" placeholder="Search for mentor...">
                 </td>
 
                 <td>
@@ -65,21 +65,18 @@
                     <td>Monday 10AM <br> Friday 11AM</td>
                     <td> <a href="contactForm.html"> here</a> </td>
                     <td>
-                        <table class="bookTable">
-                            <tr>
-                                <td>
-                                    <select style="border: 0; background-color: #EDFCED" name="meetTime" id="selectsTimeJohn">
-                                        <option value="m1">Monday 10AM</option>
-                                        <option value="m2">Friday 11AM	</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #EDFCED; color: #0D451E">
-                                    <input class="submitBook" type="submit" value="Book" >
-                                </td>
-                            </tr>
-                        </table>
+                        <select class="meetTimeSelect" name="meetTime" id="selectsTimeJohn">
+                            <option value="m1">Monday 10AM</option>
+                            <option value="m2">Friday 11AM	</option>
+                        </select>
+
+                        <br>
+
+                        <textarea class="textAreaBook" rows="2" placeholder="Purpose:"></textarea>
+
+                        <br>
+
+                        <input class="submitBook" type="submit" value="Book" >     
                     </td>
                     <td>
                         Leadership <br>
@@ -89,7 +86,7 @@
                     <td>Mentor</td>
                     <td>Siemens</td>
                     <td>4.2</td>
-                    <td>Earth</td>
+                    <td>Amsterdam</td>
                 </tr>
 
                 <tr>
@@ -98,20 +95,13 @@
                     <td>Tuesday 09AM</td>
                     <td> <a href="contactForm.html"> here</a> </td>
                     <td>
-                        <table class="bookTable">
-                            <tr>
-                                <td>
-                                    <select style="border: 0; background-color: #EDFCED" name="meetTime" id="selectsTimeMax">
-                                        <option value="m1">Tuesday 09AM</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #EDFCED; color: #0D451E">
-                                    <input class="submitBook" type="submit" value="Book" >
-                                </td>
-                            </tr>
-                        </table>
+                        <select class="meetTimeSelect" name="meetTime" id="selectsTimeMax">
+                            <option value="m1">Tuesday 09AM</option>
+                        </select>
+                        <br>
+                        <textarea class="textAreaBook" rows="2"placeholder="Purpose:"></textarea>
+                        <br>
+                        <input class="submitBook" type="submit" value="Book" >
                     </td>
                     <td>
                         Public speaking
@@ -119,7 +109,7 @@
                     <td>Manager</td>
                     <td>NetCompany</td>
                     <td>3.9</td>
-                    <td>Mars</td>
+                    <td>Delft</td>
                 </tr>
 
             </table>

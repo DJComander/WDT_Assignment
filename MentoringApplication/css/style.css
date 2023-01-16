@@ -224,12 +224,13 @@ img {
 
 .submitBook {
     background-color: #EDFCED;
-    border: 0;
-    opacity: 0.7;
+    color:#0D451E;
+    border: #0D451E solid 1px;
 }
 
 .submitBook:hover{
-    opacity: 1;
+    background-color: #0D451E;
+    color: #EDFCED;
 }
 
 .tbl_generalUse {
@@ -402,4 +403,36 @@ button:hover{
     /* color:cornsilk; */
     color: #EDFCED;
     text-align: center;
+}
+
+.pending {
+    background-color:beige;
+    color: #0D451E;
+    text-align: center;
+}
+
+.pContact {
+    font-weight: bold;
+}
+
+.tblEntry {
+    width: 100%;
+}
+
+.textChild {
+    text-align: justify;
+}
+
+.meetTimeSelect {
+    border: 0; 
+    background-color: #EDFCED
+}
+
+.tdSubmitBook {
+    background-color: #EDFCED; 
+    color: #0D451E
+}
+
+.textAreaBook {
+    width: 100%;
 }
